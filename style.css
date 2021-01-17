@@ -65,4 +65,26 @@ body::after{
     font-size: 30px;
     background: transparent;
     color: #fff;
+    border-bottom: 1px solid rgba(255,255,255, 0.05);
+    border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.container .calculator span{
+    display: grid;
+    place-items: center;
+    width: 75px;
+    height: 75px;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    border-bottom: 1px solid rgba(255,255,255, 0.05);
+    border-right: 1px solid rgba(255,255,255,0.05);
+    transition: 0.5s;
+}
+
+.container .calculator span:hover{
+    transition: 0s;
+    background: rgba(255,255,255, 0.05);
 }
