@@ -44,9 +44,25 @@ body::after{
     overflow: hidden;
     z-index: 10;  
     backdrop-filter: blur(15px); 
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
 }
 
 .container .calculator{
     position: relative;
     display: grid;
+}
+
+.container .calculator .value{
+    grid-column: span 4;
+    height: 140px; 
+    width: 300px; 
+    text-align: right;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 30px;
+    background: transparent;
+    color: #fff;
 }
