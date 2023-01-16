@@ -1,0 +1,25 @@
+{
+  "name": "calculatorjs",
+  "version": "1.0.0",
+  "description": "<img src='calculatorwithglassmorphism.gif'>",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikbarcella/calculatorjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erikbarcella/calculatorjs/issues"
+  },
+  "homepage": "https://github.com/erikbarcella/calculatorjs#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
