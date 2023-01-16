@@ -2,5 +2,7 @@
 
 ## Calculator with HTML, CSS and Vanilla JS based on the new UI design trends  Glassmorphism and 3D effects
 
-<img src='calculatorwithglassmorphism.gif'>
+https://calculatorjs-silk.vercel.app/
+
+<img src='/img/calculatorwithglassmorphism.gif'>
 
