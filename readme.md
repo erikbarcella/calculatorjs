@@ -4,5 +4,5 @@
 
 https://calculatorjs-silk.vercel.app/
 
-<img src='/img/calculatorwithglassmorphism.gif'>
+<img src='/public/img/calculatorwithglassmorphism.gif'>
 
